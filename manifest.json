@@ -1,9 +1,9 @@
 {
-  "name": "TdLib",
+  "name": "TdLib-cpp",
   "version": "1.7.9",
   "arch": "aarch64",
   "maintainer": "@animeshxd",
-  "description": "TdLib for Termux (Telegram Databasr Library)",
+  "description": "TdLib c++ library for Termux (Telegram Database Library)",
   "homepage": "https://github.com/animeshxd",
   "depends": ["pkg-config","clang","build-essential", "cmake", "make", "openssl", "zlib"],
   "recommends": [],
