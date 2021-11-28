@@ -12,6 +12,7 @@
   apt install ./TdLib_1.7.9_aarch64.deb
 
   #uninstall tdlib
+  apt remove tdlib-cpp
   ```
 - Windows (amd64)
   [Download](https://github.com/animeshxd/TdLibBinaries/releases/download/1.7.9/tdlib_windows_1_7_9_amd64.zip) compiled [C++ Release]
