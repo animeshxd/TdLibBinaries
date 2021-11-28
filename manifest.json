@@ -1,0 +1,43 @@
+{
+  "name": "TdLib",
+  "version": "1.7.9",
+  "arch": "aarch64",
+  "maintainer": "@animeshxd",
+  "description": "TdLib for Termux (Telegram Databasr Library)",
+  "homepage": "https://github.com/animeshxd",
+  "depends": ["pkg-config","clang","build-essential", "cmake", "make", "openssl", "zlib"],
+  "recommends": [],
+  "suggests": [],
+  "provides": [],
+  "conflicts": [],
+  "files" : {
+    "include/td/": "include/td",
+    
+    "lib/libtdactor.a":"lib/libtdactor.a",
+    "lib/libtdjson.so.1.7.9":"lib/libtdjson.so.1.7.9",
+    "lib/libtdapi.a":"lib/libtdapi.a",
+    "lib/libtdjson_private.a":"lib/libtdjson_private.a",
+    "lib/libtdclient.a":"lib/libtdclient.a",
+    "lib/libtdjson_static.a":"lib/libtdjson_static.a",
+    "lib/libtdcore.a":"lib/libtdcore.a",
+    "lib/libtdnet.a": "lib/libtdnet.a",
+    "lib/libtddb.a":"lib/libtddb.a",
+    "lib/libtdsqlite.a":"lib/libtdsqlite.a",
+    "lib/libtdjson.so":"lib/libtdjson.so",
+    "lib/libtdutils.a":"lib/libtdutils.a",
+
+    "lib/cmake/Td/": "lib/cmake/Td/",
+
+    "lib/pkgconfig/tdactor.pc":"lib/pkgconfig/tdactor.pc",
+    "lib/pkgconfig/tdjson_private.pc":"lib/pkgconfig/tdjson_private.pc",
+    "lib/pkgconfig/tdapi.pc":"lib/pkgconfig/tdapi.pc",
+    "lib/pkgconfig/tdjson_static.pc":"lib/pkgconfig/tdjson_static.pc",
+    "lib/pkgconfig/tdclient.pc":"lib/pkgconfig/tdclient.pc",
+    "lib/pkgconfig/tdnet.pc":"lib/pkgconfig/tdnet.pc",
+    "lib/pkgconfig/tdcore.pc":"lib/pkgconfig/tdcore.pc",
+    "lib/pkgconfig/tdsqlite.pc":"lib/pkgconfig/tdsqlite.pc",
+    "lib/pkgconfig/tddb.pc":"lib/pkgconfig/tddb.pc",
+    "lib/pkgconfig/tdutils.pc":"lib/pkgconfig/tdutils.pc",
+    "lib/pkgconfig/tdjson.pc":"lib/pkgconfig/tdjson.pc"
+  }
+}
