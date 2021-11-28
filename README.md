@@ -9,7 +9,7 @@
   Install deb file
   ```
   # install
-  apt install ./TdLib_1.7.9_aarch64.deb
+  apt install ./TdLib-cpp_1.7.9_aarch64.deb
 
   #uninstall tdlib
   apt remove tdlib-cpp
