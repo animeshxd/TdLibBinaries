@@ -6,7 +6,7 @@
   cd TdLibBinaries
   bash termux-install.sh
   ```
-  Install deb file
+  Install (TdLib-cpp_1.7.9_aarch64.deb)[https://github.com/animeshxd/TdLibBinaries/releases/download/1.7.9/TdLib_termux_1.7.9_aarch64.deb]
   ```
   # install
   apt install ./TdLib-cpp_1.7.9_aarch64.deb
